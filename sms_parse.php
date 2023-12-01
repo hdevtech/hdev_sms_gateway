@@ -27,7 +27,6 @@ if (!defined('hdev_sms')) {
 
       curl_setopt_array($curl, array(
         CURLOPT_URL => 'https://sms.hdevtech.cloud/api_pay/api/'.self::$api_id.'/'.self::$api_key,
-        //CURLOPT_URL => 'http://localhost/a_s/api_pay/api/'.self::$api_id.'/'.self::$api_key,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
